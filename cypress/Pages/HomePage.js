@@ -3,7 +3,7 @@ export class homepage{
  weblocators = {
 
      search_input: "input[placeholder='Search']",
-     click_search: "button[class='btn btn-default btn-lg']",
+     click_search: "button[class='btn btn-default btn-lg']1",
      product:"img[title='MacBook']",
      addtocart:"Add to Cart",
      successMessages:"div.alert.alert-success.alert-dismissible"

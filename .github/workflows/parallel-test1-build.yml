@@ -1,7 +1,7 @@
-name: parallel tests E2E
+name: Parallel Testing
 on: push
 jobs:
-  AddToCart-run:
+  addToCart:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -11,9 +11,9 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-        command : npm run test:addToCart
-        
-  Register-Flow-run:
+         command : npm run test:addToCart
+
+  registerFlow:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -23,4 +23,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-        command : npm run test:registerFlow
+         command : npm run test:registerFlow
+  
+         

@@ -12,8 +12,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
         command : npm run test:addToCart
-
-
+        
   Register-Flow-run:
     runs-on: ubuntu-24.04
     steps:

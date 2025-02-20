@@ -1,4 +1,4 @@
-name: Parallel tests
+name: Parallel tests E2E
 on: push
 jobs:
   AddToCart-run:
